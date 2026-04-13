@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyMe</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div id="page-top">
+    <div id="page-title">
+      <h1>MyMe</h1>
+    </div>
+  
+    <header id="profile-title">
+      <h2>Seu Perfil</h2>
+      <p>Aqui estão presentes todas as suas informações</p>
+    </header>
+  </div>
+
+  <main id="main-page-container">
+    <form id="profile-form">
+      <header id="form-title">        
+        <h2>Formulário</h2>
+        <p>Insira suas informações no formulário para compor o seu perfil</p>
+      </header>
+
+      <div class="input-field">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome">
+      </div>
+
+      <div class="input-field">
+        <label for="age">Idade</label>
+        <input type="number" id="age" name="age">
+      </div>
+
+      <div class="input-field">
+        <label for="color">Cor Favorita</label>
+        <input type="color" id="color" name="color">
+      </div>
+
+      <div class="input-field">
+        <label for="mood">Humor</label>
+        <select id="mood" name="mood">
+          <option value="sad">Triste</option>
+          <option value="neutral">Neutro</option>
+          <option value="happy">Feliz</option>
+        </select>
+      </div>
+
+      <div class="input-field">
+        <p>Hobbies</p>
+        <label>
+          <input type="checkbox" id="hobbie-draw" value="draw">
+          Desenhar
+        </label>
+        <label>
+          <input type="checkbox" id="hobbie-read" value="read">
+          Ler
+        </label>
+        <label>
+          <input type="checkbox" id="hobbie-music" value="music">
+          Música
+        </label>
+        <label>
+          <input type="checkbox" id="hobbie-sports" value="sports">
+          Esportes
+        </label>
+        <label>
+          <input type="checkbox" id="hobbie-play" value="play">
+          Jogar
+        </label>
+        <label>
+          <input type="checkbox" id="hobbie-travel" value="travel">
+          Viajar
+        </label>
+      </div>
+
+      <div class="input-field">
+        <p>Sexo</p>
+        <label>
+          <input type="radio" name="gender" value="male">
+          Masculino
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female">
+          Feminino
+        </label>
+      </div>
+
+      <div class="input-field">
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio" placeholder="Sua biografia"></textarea>
+      </div>
+
+      <input type="submit" id="submit-form">
+    </form>
+
+    <aside id="profile">
+      <header>
+        <h2>Seu Perfil</h2>
+        <p>Suas informações pessoais</p>
+      </header>
+      <section id="profile-info"></section>
+    </aside>
+  </main>
+
+</body>
+</html>

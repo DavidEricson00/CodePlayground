@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebData</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="main-content">
+    <header class="topo">
+        <input type="text" id="busca" placeholder="Buscar..." class="buscar">
+        <div class="topo-buttons">
+            <input type="button" value="Modo Escuro" class="btn" id="dark" onclick="modoEscuro()">
+            <input type="button" value="Aumentar texto" class="btn" id="aumentar" onclick="modoLeitura()">
+        </div>
+    </header>
+    
+    <hr>
+
+    <div class="page-title">
+        <h1 id="main-title" class="main-title">Bem Vindo a Web Data</h1>
+        <p id="sub-title">Sua fonte de conhecimento de tudo em relação à web!</p>
+    </div>
+
+    <hr>
+    
+    <main>
+        <h2>Lista de Tags</h2>
+        
+        <section class="tag-section">
+            <h3 class="tag-title">Tags de Conteúdo</h3>
+            <ul class="tag-list">
+                <li><a class="tag-link" href="tags-pages/content/a.html">&lt;a&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/content/em.html">&lt;em&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/content/h1.html">&lt;h1-h6&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/content/hr.html">&lt;hr&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/content/p.html">&lt;p&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/content/span.html">&lt;span&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/content/strong.html">&lt;strong&gt;</a></li>
+            </ul>
+        </section>
+
+        <section class="tag-section">
+            <h3 class="tag-title">Tags de Lista</h3>
+            <ul class="tag-list">
+                <li><a class="tag-link" href="tags-pages/lists/li.html">&lt;li&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/lists/ol.html">&lt;ol&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/lists/ul.html">&lt;ul&gt;</a></li>
+            </ul>
+        </section>
+
+        <section class="tag-section">
+            <h3 class="tag-title">Tags de Mídia</h3>
+            <ul class="tag-list">
+                <li><a class="tag-link" href="tags-pages/media/img.html">&lt;img&gt;</a></li>
+            </ul>
+        </section>
+
+        <section class="tag-section">
+            <h3 class="tag-title">Tags de Estrutura</h3>
+            <ul class="tag-list">
+                <li><a class="tag-link" href="tags-pages/structure/body.html">&lt;body&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/structure/head.html">&lt;head&gt;</a></li>
+                <li><a class="tag-link" href="tags-pages/structure/html.html">&lt;html&gt;</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>Todos os direitos reservados DataWeb.ltda</p>
+    </footer>
+  </div>
+</body>
+</html>

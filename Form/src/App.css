@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  align-items: center;
+}
+
+#enviar {
+  max-width: 100px;
+}
